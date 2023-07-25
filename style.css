@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Bungee+Spice&family=Heebo:wght@100;200;300;400;500;600;700;800&family=Lato&family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: auto;
+  font-family: "Heebo", sans-serif;
+  line-height: 1.5em;
+  font-size: 30px;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  font-weight: 400;
+}
+a {
+  /* text-decoration: none; */
+  color: gainsboro;
+}
+
+input {
+  border-radius: 4px;
+}
+
+button {
+  background-color: #e50914;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+.line {
+  margin-top: 70px;
+  border-bottom: 8px solid #232323;
+}
+
+/* ******************start****************** */
+.start {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/d7af077c-af5a-4055-8f9a-740a43588583/756e3175-58dc-4dca-b7b8-198798deb012/KR-ko-20230717-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 72vh;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: auto;
+}
+nav img {
+  width: 190px;
+  height: 85px;
+}
+select {
+  padding: 7px;
+  font-size: 16px;
+  background-color: #111111;
+  color: #fff;
+  border-radius: 4px;
+}
+nav button {
+  padding: 7px 14px;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.title {
+  margin-top: 200px;
+  text-align: center;
+}
+.title h1 {
+  width: 650px;
+  margin: auto;
+  font-size: 48px;
+}
+.title p {
+  font-size: 20px;
+  width: 800px;
+  margin: auto;
+  padding: 30px 0 10px 0;
+}
+.title p:nth-child(2) {
+  font-size: 24px;
+  padding-bottom: 0px;
+}
+.title p:last-child {
+  padding-top: 7px;
+}
+.start .email {
+  width: 580px;
+}
+.banner {
+  width: 1750px;
+  height: 140px;
+  position: sticky;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+    51.39% 511.66% at 47.68% -217.91%,
+    #ff9900 0%,
+    #e50914 17.27%,
+    #0e1b4f 79.44%,
+    #000413 100%
+  );
+  box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  margin-top: 100px;
+  z-index: 99;
+}
+.banner_img {
+}
+.banner_text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 30px;
+  line-height: 1.1em;
+}
+.banner_text h5 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: normal;
+}
+.banner_text span {
+  font-size: 16px;
+  margin: 0;
+}
+.banner_text a {
+  font-size: 16px;
+  margin: 0;
+  color: #448ef4;
+}
+.banner_text a i {
+  vertical-align: middle;
+}
+/* ******************enjoy****************** */
+.enjoy {
+}
+article {
+  width: 1180px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 510px;
+  margin-bottom: 0;
+}
+
+article:nth-of-type(2),
+article:nth-of-type(4) {
+  flex-direction: row-reverse;
+}
+
+.enjoy_text {
+  flex: 1;
+}
+.enjoy_text h1 {
+  font-size: 50px;
+  line-height: 1.2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.enjoy_text p {
+  font-size: 25px;
+  line-height: 1.2em;
+  width: 580px;
+}
+.enjoy_video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  width: 80%;
+  height: 20%;
+
+  /* border: 1px solid #33ff00; */
+}
+.enjoy_video img {
+  position: absolute;
+  z-index: 2;
+
+  height: 430px;
+  width: 580px;
+}
+.enjoy_video video {
+  position: absolute;
+  z-index: -1;
+}
+.video1 {
+  width: 440px;
+}
+.video2 {
+  width: 370px;
+  height: 240px;
+  bottom: 0;
+}
+
+/* ******************question****************** */
+.question {
+  /* padding: 0 20vw; */
+}
+.question_inner {
+  width: 1180px;
+  margin: auto;
+}
+.question_inner h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 80px;
+}
+.accodion {
+  font-size: 26px;
+}
+.ask,
+.answer {
+  background-color: #303030;
+  padding: 10px 15px;
+  margin-bottom: 7px;
+}
+.ask {
+  cursor: pointer;
+}
+.ask::after {
+  content: "\e9c5";
+  font-family: xeicon;
+  float: right;
+  margin-right: 5px;
+  transition: 0.3s;
+}
+.ask.show::after {
+  transform: rotate(45deg);
+}
+.answer {
+  display: none;
+}
+.answer a {
+  font-weight: normal;
+  color: #fff;
+}
+.show {
+  background-color: #353b48;
+}
+.service {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+.service p {
+  font-size: 20px;
+}
+.email {
+  display: flex;
+  width: 55%;
+  margin: auto;
+}
+.email input[type="email"],
+.email button {
+  height: 60px;
+  vertical-align: middle;
+}
+.email input[type="email"] {
+  flex: 2.5;
+  background-color: #0f0f0f;
+  font-size: 16px;
+  padding: 15px;
+  margin-right: 10px;
+  border: 1px solid #b7b7b7;
+  /* outline: 1px solid #fff; */
+}
+.email input::placeholder {
+  color: #b7b7b7;
+}
+.email button {
+  flex: 1;
+  font-size: 22px;
+}
+/* ******************footer****************** */
+footer {
+  width: 1180px;
+  height: 630px;
+  margin: auto;
+  color: #b3b3b3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 16px;
+}
+footer span {
+  font-size: 16px;
+  padding: 12px 0;
+  color: #b3b3b3;
+}
+footer span a {
+  color: #b3b3b3;
+}
+.footer_link {
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 30px);
+  /* border: 1px solid #ee0000; */
+  margin-bottom: 40px;
+}
+.footer_link a {
+  color: #b3b3b3;
+}
+footer select {
+  width: 115px;
+}
+.footer_info {
+  line-height: 1.1em;
+}
+.footer_info h5 {
+  font-size: 14px;
+  padding: 24px 0;
+  margin: 0;
+}
+.footer_info p {
+  font-size: 16px;
+  margin: 0;
+  line-height: 1.3em;
+}
+.footer_info a {
+  font-size: 12px;
+  color: #b3b3b3;
+}
